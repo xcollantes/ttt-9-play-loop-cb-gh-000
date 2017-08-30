@@ -36,3 +36,10 @@ def turn(board)
 end
 
 # Define your play method below
+def play(board)
+  limit = 9
+  i = 0
+  until i == limit do
+    turn(board)
+  end
+  
