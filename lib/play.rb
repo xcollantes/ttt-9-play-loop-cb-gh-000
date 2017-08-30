@@ -42,3 +42,4 @@ def play(board)
   until i == limit do
     turn(board)
   end
+end
